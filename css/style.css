@@ -8433,3 +8433,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .block-25 ul li a:hover .text .heading {
   color: #fff; }
+
+.box {
+  position: relative;
+  top: 50%;
+  margin: -10px auto; /* -height/2 */
+  width: 50%;
+  height: 50%;
+}

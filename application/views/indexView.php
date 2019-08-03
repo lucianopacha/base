@@ -87,7 +87,7 @@
               <div class="col-lg-6">
                 <div class="row row-items">
                   <div class="col-12">
-                    <a href="<?php echo base_url();?>index.php/PresupuestoController/cargarVista/medidas" class="d-flex text-center feature active p-4 mb-4 bg-white">
+                    <a href="<?php echo base_url();?>index.php/PresupuestoController/cargarVista/medidas" target="_blank" class="d-flex text-center feature active p-4 mb-4 bg-white">
                       <span class="align-self-center w-100">
                         <span class="d-block mb-3">
                           <span class="flaticon-measuring display-3"></span>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="row row-items last">
                   <div class="col-12">
-                    <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
+                    <a href="<?php echo base_url();?>index.php/PresupuestoController/cargarVista/plano" target="_blank" class="d-flex text-center feature active p-4 mb-4 bg-white">
                       <span class="align-self-center w-100">
                         <span class="d-block mb-3">
                           <span class="flaticon-interior-design display-3"></span>
@@ -131,7 +131,7 @@
               <div class="col-lg-6">
                 <div class="row row-items">
                   <div class="col-12">
-                    <a href="files/Herrajes.pdf"  target="_blank" class="d-flex text-center feature active p-4 mb-4 bg-white">
+                    <a href="files/Herrajes.pdf" target="_blank" class="d-flex text-center feature active p-4 mb-4 bg-white">
                       <span class="align-self-center w-100">
                         <span class="d-block mb-3">
                           <span class="flaticon-window display-3"></span>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="row row-items last">
                   <div class="col-12">
-                    <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
+                    <a href="<?php echo base_url();?>index.php/ProductoController/getFamilias" target="_blank" class="d-flex text-center feature active p-4 mb-4 bg-white">
                       <span class="align-self-center w-100">
                         <span class="d-block mb-3">
                           <span class="flaticon-sit-down display-3"></span>
@@ -183,7 +183,7 @@
                 <form action="index.php/ContactoController/contacto" method="POST">
                   <div class="form-group">
                     <label for="nombre">Nombre y apellido:</label>
-                    <input type="text" class="form-control" id="nombre" name="nombre">
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
                   </div>
                   <div class="form-group">
                     <label for="telefono">Teléfono:</label>
@@ -191,11 +191,11 @@
                   </div>
                   <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" name="email">
+                    <input type="email" class="form-control" id="email" name="email" required>
                   </div>
                   <div class="form-group">
                     <label for="mensaje">Mensaje:</label>
-                    <textarea class="form-control" rows="5" id="mensaje" name="mensaje"></textarea>
+                    <textarea class="form-control" rows="5" id="mensaje" name="mensaje" required></textarea>
                   </div>
                   <button type="submit" class="btn btn-secondary">Enviar</button>
                 </form>

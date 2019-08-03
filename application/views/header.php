@@ -37,7 +37,7 @@
           <div class='container py-1'>
             <div class='row align-items-center'>
               <div class='col-2'>
-                <h1 class='mb-0 site-logo'><a href='index.html'><img src='images/logo.jpg'></a></h1>
+                <h1 class='mb-0 site-logo'><a href='#'><img src='images/logo.jpg'></a></h1>
               </div>
               <div class='col-10'>
                 <nav class='site-navigation text-right' role='navigation'>
@@ -74,7 +74,7 @@
         <div class='container'>
           <div class='row'>
             <div class='col-lg-4'>
-              <a href='#' class='site-block-feature d-flex p-4 rounded mb-4'>
+              <a href='#Herrajes' class='site-block-feature d-flex p-4 rounded mb-4'>
                 <div class='mr-3'>
                   <span class='icon flaticon-sit-down font-weight-light h2'></span>
                 </div>
@@ -85,7 +85,7 @@
               </a>   
             </div>
             <div class='col-lg-4'>
-              <a href='#' class='site-block-feature d-flex p-4 rounded mb-4'>
+              <a href='#Presupuestos' class='site-block-feature d-flex p-4 rounded mb-4'>
                 <div class='mr-3'>
                   <span class='icon flaticon-measuring font-weight-light h2'></span>
                 </div>
@@ -96,7 +96,7 @@
               </a>
             </div>
             <div class='col-lg-4'>
-              <a href='#' class='site-block-feature d-flex p-4 rounded mb-4'>
+              <a href='#Herrajes' class='site-block-feature d-flex p-4 rounded mb-4'>
                 <div class='mr-3'>
                   <span class='icon flaticon-interior-design font-weight-light h2'></span>
                 </div>

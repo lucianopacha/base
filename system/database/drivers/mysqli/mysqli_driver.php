@@ -543,4 +543,15 @@ class CI_DB_mysqli_driver extends CI_DB {
 		$this->conn_id->close();
 	}
 
+	public function free_db_resource()
+	{
+	    do
+	    {
+	        if($l_result = mysqli_store_result($this->conn_id))
+	        {
+	            mysqli_free_result($l_result);
+	        }
+	    }
+	    while(mysqli_more_results($this->conn_id)  && mysqli_next_result($this->conn_id));
+	}
 }

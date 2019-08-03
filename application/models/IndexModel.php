@@ -2,7 +2,7 @@
 	/**
 	 * 
 	 */
-	class index_model extends CI_Model
+	class IndexModel extends CI_Model
 	{
 		
 		function __construct(argument)
