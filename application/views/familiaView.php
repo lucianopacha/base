@@ -36,7 +36,7 @@
             <div class="row">
               <div class="col-lg-6 mb-5 mb-lg-0">
                 <div class="img-border">
-                  <img src="<?php echo base_url();?>images/cocina3.jpg" alt="Image" class="img-fluid">
+                  <img src="<?php echo base_url();?>images/cocina2.jpg" alt="Image" class="img-fluid">
                 </div>
               </div>
               <div class="col-lg-6">
@@ -45,7 +45,7 @@
                     <a href="<?php echo base_url();?>index.php/ProductoController/mostrarProductos/1" target="_blank" class="d-flex text-center feature active p-4 mb-4 bg-white">
                       <span class="align-self-center w-100">
                         <span class="d-block mb-3">
-                          <span class="flaticon-measuring display-3"></span>
+                          <span class="flaticon-step-ladder display-3"></span>
                         </span>
                         <h3>Baño</h3>
                       </span>
@@ -56,7 +56,7 @@
                     <a href="<?php echo base_url();?>index.php/ProductoController/mostrarProductos/3" target="_blank" class="d-flex text-center feature active p-4 mb-4 bg-white">
                       <span class="align-self-center w-100">
                         <span class="d-block mb-3">
-                          <span class="flaticon-measuring display-3"></span>
+                          <span class="flaticon-window display-3"></span>
                         </span>
                         <h3>Dormitorio</h3>
                       </span>
@@ -68,7 +68,7 @@
                     <a href="<?php echo base_url();?>index.php/ProductoController/mostrarProductos/2" target="_blank" class="d-flex text-center feature active p-4 mb-4 bg-white">
                       <span class="align-self-center w-100">
                         <span class="d-block mb-3">
-                          <span class="flaticon-interior-design display-3"></span>
+                          <span class="flaticon-sit-down display-3"></span>
                         </span>
                         <h3>Living y Comedor</h3>
                       </span>
@@ -78,7 +78,7 @@
                     <a href="<?php echo base_url();?>index.php/ProductoController/mostrarProductos/4" target="_blank" class="d-flex text-center feature active p-4 mb-4 bg-white">
                       <span class="align-self-center w-100">
                         <span class="d-block mb-3">
-                          <span class="flaticon-interior-design display-3"></span>
+                          <span class="flaticon-turned-off display-3"></span>
                         </span>
                         <h3>Cocina</h3>
                       </span>
