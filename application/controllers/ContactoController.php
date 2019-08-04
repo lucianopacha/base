@@ -13,7 +13,6 @@ class ContactoController extends CI_Controller {
 		$parametros ['resultado'] = $this->ContactoModel->contacto($parametros ['nombre'], $parametros ['telefono'], $parametros ['email'], $parametros ['mensaje']);
 	    
 	    /*Mensaje a quien hizo el contacto*/
-	    /* TO DO: Descomentar para Producción
 	    $emailCliente = $this->load->view('emailView',$parametros,TRUE);
     	$this->load->library('email');
 		$this->email->from('info@mueblesroci.com', 'Muebles Roci Web');
@@ -26,7 +25,6 @@ class ContactoController extends CI_Controller {
 		$this->email->send();*/
 
 		/*Mensaje a Muebles Roci*/
-    	/* TO DO: Descomentar para Producción
     	$this->email->from($parametros['email'], $parametros['nombre']);
 		$this->email->to('info@mueblesroci.com');
 		$this->email->cc('lucianopacha@hotmail.com');

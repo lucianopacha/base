@@ -20,11 +20,11 @@
 				} else {
 					$error = "Recibimos tu mensaje, te vamos a estar contactando a la brevedad.";
 					$resultado = TRUE;
+					$this->db->free_db_resource();
 				}
 			} catch(Exception $e){
 				$error = $e->getMessage();
 			}
-			//return $resultado;
 			return $resultado;
 		}
 
@@ -62,12 +62,6 @@
 			else {
 				$query.="', '".$plano."');";
 			}
-
-			echo $query;
-			//CALL sp_insert_presupuesto('Luciano Pacheco', 'luciano.a.pacheco@gmail.com', NULL, NULL, NULL, 'Mueble para tv', 'Presupuesto 8.PNG');
-			//CALL sp_insert_presupuesto('Luciano Pacheco', 'luciano.a.pacheco@gmail.com', 'faplac', 567, 765, '23243', NULL);
-
-
 			try{
 				$consulta=$this->db->query($query);	
 				if (!$consulta) {
@@ -75,11 +69,11 @@
 				} else {
 					$error = "Recibimos tu solicitud de presupuesto, te vamos a estar contactando a la brevedad.";
 					$resultado = TRUE;
+					$this->db->free_db_resource();					
 				}
 			} catch(Exception $e){
 				$error = $e->getMessage();
 			}
-			//return $resultado;
 			return $resultado;
 		}
 	}

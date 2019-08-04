@@ -22,8 +22,9 @@
 					foreach ($consulta->result() as $row)
 					{
 			        	$resultado = $row->maxid;
-					}
+					}					
 				}
+				$this->db->free_db_resource();
 			} catch(Exception $e){
 				$error = $e->getMessage();
 			}
