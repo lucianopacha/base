@@ -15,23 +15,23 @@ class ContactoController extends CI_Controller {
 	    /*Mensaje a quien hizo el contacto*/
 	    $emailCliente = $this->load->view('emailView',$parametros,TRUE);
     	$this->load->library('email');
-		$this->email->from('contacto@mueblesroci.com', 'Muebles Roci Web');
+		$this->email->from('contacto@mueblesroci.com.ar', 'Muebles Roci Web');
 		$this->email->to($parametros['email']);
 		$this->email->cc('');
 		$this->email->bcc('');
 		$this->email->subject('Contacto desde Muebles Roci Web');
 		$this->email->message($emailCliente);
 		$this->email->set_mailtype("html");
-		$this->email->send();*/
+		$this->email->send();
 
 		/*Mensaje a Muebles Roci*/
     	$this->email->from($parametros['email'], $parametros['nombre']);
-		$this->email->to('contacto@mueblesroci.com');
+		$this->email->to('contacto@mueblesroci.com.ar');
 		$this->email->cc('');
 		$this->email->bcc('');
 		$this->email->subject('Contacto hacia Muebles Roci Web');
 		$this->email->message('Recibimos el siguiente mensaje de: '.$parametros['nombre'].'<br><br>'.$parametros['mensaje'].".<br>Fin del mensaje recibido.");
-		$this->email->send();*/		
+		$this->email->send();
 
 		if ($parametros ['resultado']) {
 			$this->load->view('contactoView');

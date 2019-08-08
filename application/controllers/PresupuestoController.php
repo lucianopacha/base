@@ -67,7 +67,7 @@ class PresupuestoController extends CI_Controller {
 		$config = $this->config($parametros['file']);
         $this->load->library('upload', $config);
         $this->upload->initialize($config);
-	    $fichero_subido = $_SERVER['DOCUMENT_ROOT'] . '/mueblesroci/presupuestos/'.$config['file_name'];
+	    $fichero_subido = $_SERVER['DOCUMENT_ROOT'] . '/presupuestos/'.$config['file_name'];
 		
 		if (move_uploaded_file($_FILES['customFile']['tmp_name'], $fichero_subido)) {
 
@@ -94,7 +94,7 @@ class PresupuestoController extends CI_Controller {
 			$this->email->subject('Solicitud de presupuesto - Muebles Roci Web');
 			$this->email->message('Recibimos la siguiente solicitud de presupuesto: <br> Nombre: '.$parametros['nombre'].'<br> Email: '.$parametros['email'].'<br> Mensaje: '.$parametros['mensaje'].'<br>Fin del mensaje recibido.');
 			$this->email->set_mailtype("html");
-			$this->email->attach($_SERVER['DOCUMENT_ROOT'] . '/mueblesroci/presupuestos/'.$_FILES['customFile']['name']);
+			$this->email->attach($_SERVER['DOCUMENT_ROOT'] . '/presupuestos/'.$_FILES['customFile']['name']);
 			$this->email->send();
 			
 			/* Cargo la página por carga correcta */
@@ -105,9 +105,13 @@ class PresupuestoController extends CI_Controller {
     }
 
     public function config($file){
+
+    	//$extension = (strpos($file, '.')*(-1));
+    	$extension = (strpos($file, '.'));
+
         $config['upload_path'] = "presupuestos/";
         $config['allowed_types'] = 'gif|jpg|png|pdf|doc|docx|bmp|ppt|pptx';
-        $config['file_name'] = 'Presupuesto '.($this->ArchivoModel->getMaxPresupuesto()+1).substr($file, -4);
+        $config['file_name'] = 'Presupuesto '.($this->ArchivoModel->getMaxPresupuesto()+1).substr($file, $extension);
         $config['allowed_types'] = "*";
         $config['max_size'] = "50000";
         $config['max_width'] = "2000";
