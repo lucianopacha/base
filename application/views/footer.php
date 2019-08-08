@@ -31,19 +31,19 @@
                 <div class='block-25'>
                   <ul class='list-unstyled'>
                     <li class='mb-3'>
-                      Teléfono / Whatsapp: <a href='https://api.whatsapp.com/send?phone=5491151836386'>+54 911 5183 6386</a>
+                      Teléfono / Whatsapp: <a href='https://api.whatsapp.com/send?phone=5491151836386' target='_blank'>+54 911 5183 6386</a>
                     </li>
                     <li class='mb-3'>
-                      Teléfono / Whatsapp: <a href='https://api.whatsapp.com/send?phone=5491135402499'>+54 911 3540 2499</a>
+                      Teléfono / Whatsapp: <a href='https://api.whatsapp.com/send?phone=5491135402499' target='_blank'>+54 911 3540 2499</a>
                     </li>
                     <li class='mb-3'>
-                      Contacto: <a href='mailto:contacto@mueblesroci.com.ar'>contacto@mueblesroci.com.ar</a>
+                      Contacto: <a href='mailto:contacto@mueblesroci.com.ar' target='_blank'>contacto@mueblesroci.com.ar</a>
                     </li>
                     <li class='mb-3'>
-                      Ventas: <a href='mailto:ventas@mueblesroci.com.ar'>ventas@mueblesroci.com.ar</a>
+                      Ventas: <a href='mailto:ventas@mueblesroci.com.ar' target='_blank'>ventas@mueblesroci.com.ar</a>
                     </li>
                     <li class='mb-3'>
-                      Herrajes: <a href='mailto:herrajesdyg@mueblesroci.com.ar'>herrajesdyg@mueblesroci.com.ar</a>
+                      Herrajes: <a href='mailto:herrajesdyg@mueblesroci.com.ar' target='_blank'>herrajesdyg@mueblesroci.com.ar</a>
                     </li>
                   </ul>
                 </div>
@@ -57,7 +57,7 @@
                 <div class='col-md-12'>
                   <h3 class='footer-heading mb-4'>Seguinos en redes sociales</h3>
                   <div>
-                    <a href='https://www.facebook.com/Muebles-Roci-731455916944633' class='pl-0 pr-3'><span class='icon-facebook'></span></a>
+                    <a href='https://www.facebook.com/Muebles-Roci-731455916944633' class='pl-0 pr-3'target='_blank'><span class='icon-facebook'></span></a>
                     <a href='#' class='pl-3 pr-3'><span class='icon-instagram'></span></a>
                   </div>
                   <br>
@@ -73,7 +73,7 @@
           <div class='row pt-5 mt-5 text-center'>
             <div class='col-md-12'>
               <p>
-              Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Sitio desarrollado </i> por <a href='https://www.becamsistemas.com.ar/' target='_blank' >Becam Sistemas</a>
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Sitio desarrollado </i> por <a href='https://www.becamsistemas.com.ar/' target='_blank'>Becam Sistemas</a>
               </p>
             </div>
             

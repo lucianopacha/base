@@ -40,7 +40,7 @@ class PresupuestoController extends CI_Controller {
 		/*Mensaje a Muebles Roci*/
     	$this->email->from($parametros['email'], $parametros['nombre']);
 		$this->email->to('ventas@mueblesroci.com.ar');
-		$this->email->cc('lucianopacha@hotmail.com');
+		$this->email->cc('');
 		$this->email->bcc('');
 		$this->email->subject('Solicitud de presupuesto - Muebles Roci Web');
 		$this->email->message('Recibimos la siguiente solicitud de presupuesto: <br> Nombre: '.$parametros['nombre'].'<br> Email: '.$parametros['email'].'<br> Material: '.$parametros['material'].'<br> Alto:'.$parametros['alto'].'<br> Ancho: '.$parametros['ancho'].'<br> Mensaje: '.$parametros['mensaje'].'<br>Fin del mensaje recibido.');
@@ -89,7 +89,7 @@ class PresupuestoController extends CI_Controller {
 			/*Mensaje a Muebles Roci*/
 	    	$this->email->from($parametros['email'], $parametros['nombre']);
 			$this->email->to('ventas@mueblesroci.com.ar');
-			$this->email->cc('lucianopacha@hotmail.com');
+			$this->email->cc('');
 			$this->email->bcc('');
 			$this->email->subject('Solicitud de presupuesto - Muebles Roci Web');
 			$this->email->message('Recibimos la siguiente solicitud de presupuesto: <br> Nombre: '.$parametros['nombre'].'<br> Email: '.$parametros['email'].'<br> Mensaje: '.$parametros['mensaje'].'<br>Fin del mensaje recibido.');

@@ -15,16 +15,16 @@
             <div class='row align-items-center'>
               <div class='col-6'>
                 <!-- TO DO: Incluir URL de redes sociales -->
-                <a href='https://www.facebook.com/Muebles-Roci-731455916944633' class='p-2 pl-0'><span class='icon-facebook'></span></a>
+                <a href='https://www.facebook.com/Muebles-Roci-731455916944633' class='p-2 pl-0' target='_blank'><span class='icon-facebook'></span></a>
                 <a href='#' class='p-2 pl-0'><span class='icon-instagram'></span></a>
               </div>
               <div class='col-6'>
                 <div class='d-flex ml-auto'>
-                  <a href='mailto:contacto@mueblesroci.com.ar' class='d-flex align-items-center ml-auto mr-4'>
+                  <a href='mailto:contacto@mueblesroci.com.ar' class='d-flex align-items-center ml-auto mr-4' target='_blank'>
                     <span class='icon-envelope mr-2'></span>
                     <span class='d-none d-md-inline-block'>contacto@mueblesroci.com.ar</span>
                   </a>
-                  <a href='https://api.whatsapp.com/send?phone=5491151836386' class='d-flex align-items-center'>
+                  <a href='https://api.whatsapp.com/send?phone=5491151836386' class='d-flex align-items-center' target='_blank'>
                     <span class='icon-phone mr-2'></span>
                     <span class='d-none d-md-inline-block'>+54 911 5183 6386</span>
                   </a>
